@@ -72,6 +72,7 @@ Para reafirmar el punto anterior podemos basarnos en el siguiente gráfico. Pode
 Después de varios procesos logramos extraer dos archivos .csv bastante descentes y limpios, podemos encontrarlos aquí:
 
 [clean_titanic_test.csv](https://github.com/Dexne/Data_Science/blob/main/titanic_problem/workspaces/machine-learning-content/assets/clean_titanic_test.csv)
+
 [clean_titanic_train.csv](https://github.com/Dexne/Data_Science/blob/main/titanic_problem/workspaces/machine-learning-content/assets/clean_titanic_train.csv)
 
 ## Conclusión
