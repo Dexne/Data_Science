@@ -10,9 +10,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
 
 # Importamos el conujunto de datos para comenzar a trabajar en el
-train_data = pd.read_csv("https://raw.githubusercontent.com/4GeeksAcademy/machine-learning-content/master/assets/titanic_train.csv")
-test_data =pd.read_csv("https://raw.githubusercontent.com/4GeeksAcademy/machine-learning-content/master/assets/titanic_test.csv")
-test_survived_data =pd.read_csv("https://raw.githubusercontent.com/4GeeksAcademy/machine-learning-content/master/assets/gender_submission.csv")
+train_data = pd.read_csv("csv/titanic_train.csv")
+test_data =pd.read_csv("csv/titanic_test.csv")
+test_survived_data =pd.read_csv("csv/gender_submission.csv")
 test_data["Survived"] = test_survived_data["Survived"]
 
 total_data = pd.concat([train_data, test_data]).reset_index(inplace=False)
