@@ -20,21 +20,21 @@ También podemos observar que más de la mitad de las personas abordaron desde S
 
 Y otro dato importante que podemos destacar es que la mayoria de los pasajeros viajaron solos.
 
-![Figura 1](titanic_problem/resultados/Figure_1.png)
+![Figura 1](https://github.com/Dexne/Data_Science/blob/main/titanic_problem/resultados/Figure_1.png)
 
 De la siguiente imagen podemos decir que una población significativa de los pasajeros pago una tarifa baja, esto hace sentido ya que, como lo vimos antes, la mayor parte de los pasajeros viajó en 3ra clase y también tiene relación con las edades calculadas, sabemos gracias a analisis posteriores que por lo general, la población de edad más avanzada era la que viajaba en 3ra clase, o sea, una porción muy pequeña.
 
-![Figura 2](titanic_problem/resultados/Figure_2.png)
+![Figura 2](https://github.com/Dexne/Data_Science/blob/main/titanic_problem/resultados/Figure_2.png)
 
 Podemos apreciar que existe una relación directa entre el precio del billete y la supervivencia del pasajero.
 
 Además también podemos apreciar que existe una relación lineal negativa entre la edad y la supervivencia, nuevamente hace sentido ya que los niños y las mujeres tenian prioridad al momento de subir a los botes salvavidas.
 
-![figura 3](titanic_problem/resultados/Figure_3.png)
+![figura 3](https://github.com/Dexne/Data_Science/blob/main/titanic_problem/resultados/Figure_3.png)
 
 En la siguiente imagen podemos sacar conclusiones de que la edad no es un factor que tenga una relación muy grande en los precios de los billetes.
 
-![figura 4](titanic_problem/resultados/Figure_4.png)
+![figura 4](https://github.com/Dexne/Data_Science/blob/main/titanic_problem/resultados/Figure_4.png)
 
 En la imagen de a continuación si que tenemos mucha información importante que logramos obtener como:
 De las personas que NO lograron sobrevivir podemos calcular que más de 600 de ellos fueron hombres, mientras que mujeres solo representan poco más de 100. Por otro lado, de la población que SI logró sobrevivir podemos ver como en su mayoria se trata de mujeres al poco menos de 400, mientras que hombres apenas y llegaron a los 100. Nuevamente esto tiene sentido debido a la prioridad que se tenia en los botes salvavidas.
@@ -45,7 +45,7 @@ Así mismo también podemos afirmar que las personas que abordaron desde S = Sou
 
 Finalmente y reafirmando mi punto anterior, podemos ver como las personas que viajaron solos tuvieron mayor exito en la supervivencia.
 
-![figura 5](titanic_problem/resultados/Figure_5.png)
+![figura 5](https://github.com/Dexne/Data_Science/blob/main/titanic_problem/resultados/Figure_5.png)
 
 Hablando un poco de esta población que afortunadamente logró sobrevivir, podemos decir lo siguiente:
 
@@ -53,26 +53,27 @@ De los hombres, casi el doble pagaron por un boleto más caro, siendo el de prim
 
 De estas personas, la mayoría de ellas (de primera clase) embarcaron desde Queenstown y Cherbourg y, solo un poco menor desde Southampton.
 
-![Figura 6](titanic_problem/resultados/Figure_6.png)
+![Figura 6](https://github.com/Dexne/Data_Science/blob/main/titanic_problem/resultados/Figure_6.png)
 
 Haciendo un analisis de correlaciones podemos apreciar que existe una relación directa enyre el sexo del pasajero y su supervivencia, como hemos visto anteriormente. Además, se aprecia una relación entre el número de acompañantes de los mismos.
 
-![Figura 7](titanic_problem/resultados/Figure_7.png)
+![Figura 7](https://github.com/Dexne/Data_Science/blob/main/titanic_problem/resultados/Figure_7.png)
 
 Se observa una asociación inversa entre la clase socioeconómica y la edad de los pasajeros. En general, aquellos que viajaban en primera clase tienden a ser personas de mayor edad en comparación con los pasajeros de segunda y tercera clase. Esta relación negativa sugiere que, en promedio, los pasajeros de mayor edad eran más propensos a viajar en primera clase.
 
-![Figura 8](titanic_problem/resultados/Figure_8.png)
+![Figura 8](https://github.com/Dexne/Data_Science/blob/main/titanic_problem/resultados/Figure_8.png)
 
 Para reafirmar el punto anterior podemos basarnos en el siguiente gráfico. Podemos observar como conforme la edad incrementa, el precio del billete aumenta, confirmando que las personas de edad avanzada tendian a ser las que viajaban en primera clase. Así mismo, conforme el precio disminuye, la cantidad de boletos aumenta (Ya que había mas personas con billete de 3ra clase).
 
-![Figura 9](titanic_problem/resultados/Figure_9.png)
+![Figura 9](https://github.com/Dexne/Data_Science/blob/main/titanic_problem/resultados/Figure_9.png)
 
 **Datos limpios para entrenamiento**
 
 Después de varios procesos logramos extraer dos archivos .csv bastante descentes y limpios, podemos encontrarlos aquí:
 
-[clean_titanic_test.csv](titanic_problem/workspaces/machine-learning-content/assets/clean_titanic_test.csv)
-[clean_titanic_train.csv](titanic_problem/workspaces/machine-learning-content/assets/clean_titanic_train.csv)
+[clean_titanic_test.csv](https://github.com/Dexne/Data_Science/blob/main/titanic_problem/workspaces/machine-learning-content/assets/clean_titanic_test.csv)
+
+[clean_titanic_train.csv](https://github.com/Dexne/Data_Science/blob/main/titanic_problem/workspaces/machine-learning-content/assets/clean_titanic_train.csv)
 
 ## Conclusión
 
