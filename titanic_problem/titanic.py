@@ -5,6 +5,9 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
+from sklearn.feature_selection import SelectKBest, f_classif
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import MinMaxScaler, StandardScaler
 
 # Importamos el conujunto de datos para comenzar a trabajar en el
 train_data = pd.read_csv("https://raw.githubusercontent.com/4GeeksAcademy/machine-learning-content/master/assets/titanic_train.csv")
@@ -249,3 +252,83 @@ Quiza pueda haber un impacto real entre el precio del boleto y la supervivencia,
 """
 
 # Analisis de valores faltantes
+total_data.isnull().sum().sort_values(ascending=False)
+
+# Obtener porcentajes basados en el numero de filas
+total_data.isnull().sum().sort_values(ascending=False) / len(total_data)
+
+# utilizamos imputacion numerica para rellenar espacios vacios
+total_data["Age"].fillna(total_data["Age"].median(), inplace= True)
+total_data["Embarked"].fillna(total_data["Embarked"].mode()[0], inplace=True)
+total_data["Fare"].fillna(total_data["Fare"].mean(), inplace=True)
+
+# Elimninamos valores emputados y ya no existen faltantes
+total_data.isnull().sum() # Podemos agregar un print para observar las reducciones
+
+# SibSp y Parch son dos variables y sumándolas podemos obtener una tercera, que nos informa sobre los acompañantes de un pasajero determinado, sin distinción entre los vínculos que pudieran tener.
+total_data["FamMembers"] = total_data["SibSp"] + total_data["Parch"]
+
+total_data.head()
+
+# Escalado de valores
+num_variables = ["Pclass", "Age", "Fare", "Sex_n", "Embarked_n", "FamMembers"]
+
+# We divide the dataset into training and test samples
+X = total_data.drop("Survived", axis = 1)[num_variables]
+y = total_data["Survived"]
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 42)
+
+X_train.head() # podemos agregar un print para visualizar
+
+# Normalizacion
+scaler = StandardScaler()
+scaler.fit(X_train)
+
+X_train_norm = scaler.transform(X_train)
+X_train_norm = pd.DataFrame(X_train_norm, index = X_train.index, columns=num_variables)
+
+X_test_norm = scaler.transform(X_test)
+X_test_norm = pd.DataFrame(X_test_norm, index = X_test.index, columns=num_variables)
+
+X_train_norm.head()
+
+# Escalado minimo-maximo
+scaler = MinMaxScaler()
+scaler.fit( X_train )
+
+X_train_scal = scaler.transform(X_train)
+X_train_scal = pd.DataFrame(X_train_scal, index = X_train.index, columns= num_variables)
+
+X_test_scal = scaler.transform(X_test)
+X_test_scal = pd.DataFrame(X_test_scal, index = X_test.index, columns= num_variables)
+
+X_train_scal.head() # Agregar impresion si deseamos ver los resultados
+
+# Seleccion de caracteristicas
+# Seleccionamos las variables mas relevantes de nuestro conjunto de datos, esto con el fin de:
+#   Simplificar y que sea mas facil de entender
+#   Reducir los tiempos de entrenamiento de los modelos
+#   Mejorar el rendimiento al eliminar caracteristicas irrelevantes
+
+"""
+ANOVA se utiliza para comparar las medias entre grupos en variables continuas, la prueba de Chi-cuadrado se utiliza para evaluar la relación o asociación entre variables categóricas en una muestra. Ambos métodos son herramientas estadísticas fundamentales utilizadas en análisis de datos para comprender las relaciones entre diferentes conjuntos de datos.
+"""
+
+selection_model = SelectKBest(f_classif, k = 5) # eliminar 2 caracteriscas
+selection_model.fit(X_train, y_train)
+ix = selection_model.get_support()
+X_train_sel = pd.DataFrame(selection_model.transform(X_train), columns = X_train.columns.values[ix])
+X_test_sel = pd.DataFrame(selection_model.transform(X_test), columns=X_test.columns.values[ix])
+
+X_train_sel.head()
+
+X_test_sel.head()
+
+X_train_sel["Survived"] = list(y_train)
+X_test_sel["Survived"] = list(y_test)
+
+
+# Generacion de los datos limpios
+X_train_sel.to_csv("/home/dexne/Desktop/data_science/titanic_problem/workspaces/machine-learning-content/assets/clean_titanic_train.csv", index=False)
+X_test_sel.to_csv("/home/dexne/Desktop/data_science/titanic_problem/workspaces/machine-learning-content/assets/clean_titanic_test.csv", index=False)
