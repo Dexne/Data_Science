@@ -4,8 +4,6 @@
 # El propósito del siguiente codigo es el de poder extraer todos los datos de las elecciones presidenciales de años anteriores y con ellos, tratar de hacer estimaciones y calculos acerca de los posibles resultados de las elecciones futuras.
 
 
-from math import sqrt
-
 # librerias necesarias
 from math import sqrt
 
@@ -13,32 +11,21 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import plotly.express as px
-<<<<<<< HEAD
 import scipy.stats
 import scipy.stats as stats
-=======
->>>>>>> 18682aa5f9af12ae772bd5c0b2e9f4a02cb7a354
 import seaborn as sns
 import statsmodels.graphics.tsaplots as sgt
 import statsmodels.tsa.stattools as sts
 from IPython.display import Latex, Math, display
-<<<<<<< HEAD
 from prophet import Prophet
-=======
->>>>>>> 18682aa5f9af12ae772bd5c0b2e9f4a02cb7a354
 from scipy.stats.distributions import chi2
 from sklearn.metrics import mean_squared_error
 from statsmodels.tsa.arima_model import ARIMA
 from statsmodels.tsa.seasonal import seasonal_decompose
-<<<<<<< HEAD
 from statsmodels.tsa.stattools import adfuller
 
 sns.set()
 
-=======
-
-sns.set()
->>>>>>> 18682aa5f9af12ae772bd5c0b2e9f4a02cb7a354
 
 # Establecemos el tamanio predeterminado de las figuras que estaremos ploteando
 plt.rcParams['figure.figsize'] = (16,8)
@@ -47,7 +34,6 @@ plt.rcParams['figure.figsize'] = (16,8)
 df = pd.read_excel('content/TEST.xlsx')
 
 # Podremos agregar un print en caso de querer visualizar la indfo
-<<<<<<< HEAD
 print(df.head())
 
 print(df.tail())
@@ -78,34 +64,6 @@ df.to_excel("content/serie_electio.xlsx")
 
 # Serie de tiempo
 stocks_df=pd.read_excel("content/serie_electio.xlsx")
-=======
-df.head()
-
-df.tail()
-
-filtro = df.loc[ df['TpE'] == 'Municipes' ]
-print( filtro )
-
-filtro = df.loc[(df['TpE'] == 'Municipes') & (df['MUNICIPIO'] == "ZAPOPAN")]
-print( filtro )
-
-df = filtro
-df.sort_values( by='YE' )# Ordenamos el dataframe
-
-df = df.sort_values( by='YE') # Ordenamos
-
-df.info()
-
-df.isnull().sum()
-
-df.head()
-
-df.tail()
-
-df.to_excel("serie.xlsx")
-
-stocks_df = pd.read_excel("content/serie_electio.xlsx")
->>>>>>> 18682aa5f9af12ae772bd5c0b2e9f4a02cb7a354
 
 print(stocks_df)
 
@@ -118,18 +76,13 @@ stocks_df['YE'] = stocks_df['YE'].replace(2021, "2021-12-31")
 
 print(stocks_df)
 
-<<<<<<< HEAD
 print(stocks_df.info())
-=======
-stocks_df.info()
->>>>>>> 18682aa5f9af12ae772bd5c0b2e9f4a02cb7a354
 
 stocks_df['YE'] = pd.to_datetime(stocks_df['YE'])
 
 print(stocks_df)
 
 stocks_df.set_index("YE", inplace=True)
-<<<<<<< HEAD
 
 stocks_df_anual = stocks_df.resample('A').sum()
 
@@ -140,13 +93,6 @@ print(stocks_df_anual)
 
 stocks_df_anual.to_excel("content/anual_election.xlsx")
 stocks_df_anual = pd.read_excel("content/anual_election.xlsx")
-=======
-stocks_df_anual = stocks_df.resample('A').sum()
-print(stocks_df_anual)
-
-stocks_df_anual.to_excel("anual_election.xlsx")
-stocks_df_anual = pd.read_excel("/content/anual_election.xlsx")
->>>>>>> 18682aa5f9af12ae772bd5c0b2e9f4a02cb7a354
 print(stocks_df_anual)
 
 stocks_df = stocks_df_anual
@@ -159,7 +105,6 @@ print('Total Number of stocks : {}'.format(len(stocks_df.columns[1:])))
 print('Stocks under consideration are:')
 
 for i in stocks_df.columns[1:]:
-<<<<<<< HEAD
     print(i)
 
 print(stocks_df.info())
@@ -323,16 +268,3 @@ for color in colores:
     # Mostrar componentes del modelo
     plot2 = p.plot_components(forecast)
     plt.show()
-=======
-  print(i)
-
-stocks_df.info()
-
-def show_plot(df, fig_title):
-  df.plot(x = 'YE', figsize = (15,10), linewidth = 3, title = fig_title)
-  plt.grid()
-  plt.show()
-
-show_plot(stocks_df, 'Partidos')
-
->>>>>>> 18682aa5f9af12ae772bd5c0b2e9f4a02cb7a354
