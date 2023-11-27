@@ -43,247 +43,145 @@ Ahora pasemos al análisis detallado de los datos de cada partido individual
 
 Hablemos de cómo le fue al partido AZUL, el cual gracias al siguiente gráfico podemos observar como en el año 2012 tuvo su mayor cantidad de votos, los cuales fueron alrededor de 180 mil, después de ese año su popularidad al igual que sus votos fueron disminuyendo, llegando a un total de 60 mil por el año 2020, una perdida de casi dos terceras partes.
 
-![Votos AZUL]()
+![Votos AZUL](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Votos_AZUL.png)
 
 En los gráficos, los puntos negros representan los datos observados y la línea azul con el área sombreada representa el pronóstico. La línea azul muestra la tendencia central del pronóstico y el área sombreada alrededor de la línea azul representa el intervalo de confianza del pronóstico.
 
 Se muestra una tendencia descendente desde 2010 hasta 2018, seguida de una ligera tendencia ascendente desde 2018 hasta 2024. Esto sugiere que la variable que se está pronosticando disminuyó durante un período y luego comenzó a aumentar.
 
-![Forecast AZUL]()
-![Forecast AZUL 2]()
+![Forecast AZUL](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_AZUL.png)
+![Forecast AZUL 2](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_components_AZUL.png)
 
 
 Lo siguiente es más de los mismo pero para cada partido en especifico, sin embargo omitiré hacer una descripción especifica para cada partido y condensaré todo en una conclusión final.
 
 # Partido ROJO
 
-![]()
-![]()
-![]()
-![]()
+![votos](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Votos_ROJO.png)
+![qq](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/QQ_ROJO.png)
+![forecast](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_ROJO.png)
+![forecast 2](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_components_ROJO.png)
 
-# Partido 
+# Partido AMARILLO
 
-![]()
-![]()
-![]()
-![]()
+![votos](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Votos_AMARILLO.png)
+![qq](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/QQ_AMARILLO.png)
+![forecast](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_AMARILLO.png)
+![forecast 2](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_components_AMARILLO.png)
 
-# Partido 
+# Partido VERDE
 
-![]()
-![]()
-![]()
-![]()
+![votos](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Votos_VERDE.png)
+![qq](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/QQ_VERDE.png)
+![forecast](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_VERDE.png)
+![forecast 2](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_components_VERDE.png)
 
-# Partido 
+# Partido TINTO
 
-![]()
-![]()
-![]()
-![]()
+![votos](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Votos_TINTO.png)
+![qq](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/QQ_TINTO.png)
+![forecast](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_TINTO.png)
+![forecast 2](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_components_TINTO.png)
 
-# Partido 
+# Partido NARANJA
 
-![]()
-![]()
-![]()
-![]()
+![votos](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Votos_NARANJA.png)
+![qq](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/QQ_NARANJA.png)
+![forecast](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_NARANJA.png)
+![forecast 2](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_components_NARANJA.png)
 
-# Partido 
+# Partido AZULVERDE
 
-![]()
-![]()
-![]()
-![]()
+![votos](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Votos_AZULVERDE.png)
+![qq](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/QQ_AZULVERDE.png)
+![forecast](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_AZULVERDE.png)
+![forecast 2](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_components_AZULVERDE.png)
 
-# Partido 
+# Partido MAGENTA
 
-![]()
-![]()
-![]()
-![]()
+![votos](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Votos_MAGENTA.png)
+![qq](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/QQ_MAGENTA.png)
+![forecast](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_MAGENTA.png)
+![forecast 2](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_components_MAGENTA.png)
 
-# Partido 
+# Partido MORADO
 
-![]()
-![]()
-![]()
-![]()
+![votos](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Votos_MORADO.png)
+![qq](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/QQ_MORADO.png)
+![forecast](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_MORADO.png)
+![forecast 2](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_components_MORADO.png)
 
-# Partido 
 
-![]()
-![]()
-![]()
-![]()
+# Partido FUTURO
 
-# Partido 
+![votos](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Votos_FUTURO.png)
+![qq](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/QQ_FUTURO.png)
+![forecast](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_FUTURO.png)
+![forecast 2](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_components_FUTURO.png)
 
-![]()
-![]()
-![]()
-![]()
+# Partido ROJOVERDE
 
-# Partido 
+![votos](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Votos_ROJOVERDE.png)
+![qq](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/QQ_ROJOVERDE.png)
+![forecast](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_ROJOVERDE.png)
+![forecast 2](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_components_ROJOVERDE.png)
 
-![]()
-![]()
-![]()
-![]()
+# Partido morado bajo
 
-# Partido 
+![votos](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Votos_moradobajo.png)
+![qq](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/QQ_moradobajo.png)
+![forecast](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_moradobajo.png)
+![forecast 2](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_components_moradobajo.png)
 
-![]()
-![]()
-![]()
-![]()
+# Partido amarillo bajo
 
-# Partido 
+![votos](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Votos_amarillobajo.png)
+![qq](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/QQ_amarillobajo.png)
+![forecast](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_amarillobajo.png)
+![forecast 2](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_components_amarillobajo.png)
 
-![]()
-![]()
-![]()
-![]()
+# Partido OTRO
 
-# Partido 
+![votos](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Votos_OTRO.png)
+![qq](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/QQ_OTRO.png)
+![forecast](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_OTRO.png)
+![forecast 2](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_components_OTRO.png)
 
-![]()
-![]()
-![]()
-![]()
+# Partido NO CONTESTÓ
 
-# Partido 
+![votos](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Votos_NoContesto.png)
+![qq](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/QQ_NoContesto.png)
+![forecast](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_NoContesto.png)
+![forecast 2](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_components_NoContesto.png)
 
-![]()
-![]()
-![]()
-![]()
+# Partido OTROB
 
-# Partido 
+![votos](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Votos_OTROB.png)
+![qq](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/QQ_OTROB.png)
+![forecast](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_OTROB.png)
+![forecast 2](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_components_OTROB.png)
 
-![]()
-![]()
-![]()
-![]()
 
+# Partido MORADO.1
 
-# Partido 
+![votos](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Votos_MORADO.1.png)
+![qq](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/QQ_MORADO.1.png)
+![forecast](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_MORADO.1.png)
+![forecast 2](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_components_MORADO.1.png)
 
-![]()
-![]()
-![]()
-![]()
+# Partido OTROC
 
-# Partido 
+![votos](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Votos_OTROC.png)
+![qq](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/QQ_OTROC.png)
+![forecast](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_OTROC.png)
+![forecast 2](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_components_OTROC.png)
 
-![]()
-![]()
-![]()
-![]()
+# Partido ROSA
 
-# Partido 
+![Votos](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Votos_ROSA.png)
+![QQ](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/QQ_ROSA.png)
+![Forecast 1](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_ROSA.png)
+![Forecast 2](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Forecast_prediction_components_ROSA.png)
 
-![]()
-![]()
-![]()
-![]()
+## Conclusiones
 
-# Partido 
-
-![]()
-![]()
-![]()
-![]()
-
-# Partido 
-
-![]()
-![]()
-![]()
-![]()
-
-# Partido 
-
-![]()
-![]()
-![]()
-![]()
-
-# Partido 
-
-![]()
-![]()
-![]()
-![]()
-
-# Partido 
-
-![]()
-![]()
-![]()
-![]()
-
-# Partido 
-
-![]()
-![]()
-![]()
-![]()
-
-# Partido 
-
-![]()
-![]()
-![]()
-![]()
-
-# Partido 
-
-![]()
-![]()
-![]()
-![]()
-
-# Partido 
-
-![]()
-![]()
-![]()
-![]()
-
-# Partido 
-
-![]()
-![]()
-![]()
-![]()
-
-# Partido 
-
-![]()
-![]()
-![]()
-![]()
-
-# Partido 
-
-![]()
-![]()
-![]()
-![]()
-
-# Partido 
-
-![]()
-![]()
-![]()
-![]()
-
-
-# Partido 
-
-![]()
-![]()
-![]()
-![]()
