@@ -185,3 +185,17 @@ Lo siguiente es más de los mismo pero para cada partido en especifico, sin emba
 
 ## Conclusiones
 
+
+**Análisis exploratorio de datos:** Se pueden realizar análisis descriptivos iniciales para comprender la estructura de la tabla de votos. Esto incluiría la identificación de variables clave, como el número de votos por candidato, tendencias de participación electoral a lo largo del tiempo, distribución geográfica de los votos, entre otros.
+
+**Visualización de datos:** Gráficos y visualizaciones pueden ayudar a presentar patrones, relaciones y tendencias en los datos de manera clara y comprensible. Gráficos de barras, mapas de calor, gráficos de líneas temporales y mapas geoespaciales podrían utilizarse para mostrar la distribución de votos por región, cambios en la participación a lo largo de los años, entre otros aspectos relevantes.
+
+**Detección de anomalías o irregularidades:** El Data Science puede ayudar a identificar patrones inusuales en los datos que podrían indicar irregularidades electorales, como votos anómalos, discrepancias significativas entre regiones o cambios repentinos en los patrones de votación.
+
+**Segmentación y análisis demográfico:** No fue el caso pero la segmentación de votantes según características demográficas (edad, género, nivel educativo, etc.) puede proporcionar información valiosa sobre las preferencias electorales y patrones de participación, lo que ayuda a los candidatos a entender mejor a su electorado.
+
+**Optimización de campañas electorales:** Utilizando técnicas de análisis predictivo, se pueden identificar estrategias más efectivas para las campañas electorales, como la asignación óptima de recursos, la identificación de temas relevantes para los votantes o la determinación de áreas clave para concentrar esfuerzos de campaña.
+
+En resumen, el Data Science aplicado al registro de votos en elecciones presenciales proporciona herramientas poderosas para comprender patrones electorales, predecir tendencias, identificar áreas de mejora y tomar decisiones más informadas en el ámbito político. Además, puede contribuir significativamente a mejorar la transparencia y la integridad de los procesos electorales al identificar posibles irregularidades.
+
+Finalmente para concluir este analisis podemos decir que, en base a los datos recabados que conforman los resultados de las elecciones de los ultimos años podemos decir que el partido ganador de las siguientes elecciones será el NARANJA ya que, como pudimos observar, la cantidad de los votos que recibia incrementaba con cada elecciones, a pesar de que tuvo un descenso en los últimos años, sigue siendo superior a la competencia. También podemos apreciar como su predicción nos dice que superará los 300,000 votos para el 2025 y su popularidad seguirá creciendo de manera lineal para esos años.
