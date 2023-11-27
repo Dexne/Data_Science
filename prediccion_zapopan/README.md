@@ -1,6 +1,6 @@
 # Predicción elecciones presidenciales
 
-### BY: Dexne
+### By: Dexne
 
 
 El data science juega un papel fundamental en el análisis de elecciones presidenciales al permitir el procesamiento y la interpretación de grandes conjuntos de datos para identificar patrones, tendencias y factores predictivos.
