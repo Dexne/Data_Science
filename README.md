@@ -26,6 +26,36 @@ La ciencia de datos funciona a través de un proceso que implica diversas etapas
 Este proceso es iterativo y continuo, ya que a medida que se avanza, pueden surgir nuevas preguntas o problemas que requieran más análisis de datos. La ciencia de datos utiliza una variedad de herramientas, técnicas y metodologías para extraer información valiosa de los datos y utilizarla para comprender fenómenos, predecir tendencias, tomar decisiones informadas y resolver problemas complejos en diferentes áreas.
 
 
-Cómo parte de mi portafolio de evidencia ajunto mi primer trabajo, el problema del titanic.
+## Problema del Titanic
+
+El problema del Titanic es un desafío comúnmente utilizado para enseñar técnicas de análisis de datos, aprendizaje automático y ciencia de datos. Este problema se basa en el famoso hundimiento del RMS Titanic en 1912.
+
+El objetivo principal es predecir si un pasajero sobrevivió o no al desastre del Titanic utilizando datos históricos de pasajeros como edad, género, clase socioeconómica, entre otros. El conjunto de datos contiene información sobre varios pasajeros, incluyendo aquellos que sobrevivieron y aquellos que no lo hicieron.
+
+Los datos del Titanic generalmente incluyen características como:
+
+Clase socioeconómica (Pclass): Refleja la clase del billete del pasajero (1ra, 2da o 3ra clase).
+Género (Sex): El género del pasajero.
+Edad (Age): La edad del pasajero.
+Número de hermanos/cónyuges a bordo (SibSp): Indica la cantidad de hermanos o cónyuges que el pasajero tenía a bordo.
+Número de padres/hijos a bordo (Parch): Indica la cantidad de padres o hijos que el pasajero tenía a bordo.
+Tarifa del pasaje (Fare): El precio del billete pagado por el pasajero.
+Puerto de embarque (Embarked): El puerto desde el que el pasajero embarcó (C = Cherbourg, Q = Queenstown, S = Southampton).
+El desafío consiste en utilizar estos datos para construir un modelo predictivo que pueda determinar con la mayor precisión posible si un pasajero sobrevivió al naufragio o no, basándose en las características proporcionadas.
+
+Este problema es una excelente oportunidad para explorar y aplicar técnicas de preprocesamiento de datos, análisis exploratorio, ingeniería de características y algoritmos de aprendizaje automático como clasificación, ya sea mediante árboles de decisión, regresión logística, máquinas de vectores de soporte (SVM), entre otros, para predecir el resultado de supervivencia.
 
 [El problema del titanic](https://github.com/Dexne/Data_Science/tree/main/titanic_problem).
+
+## Predicción de elecciones presidenciales
+
+El siguiente ejercicio tiene como fin, dado un registro de los votos de las elecciones presidenciales de los últimos años, tratar de hacer la predicción de quién será el partido ganador. Para realizarlo se tomaron en cuanta factores como:
+- Cantidad de votos adquiridos
+- Popularidad en los últimos años
+- Simpatia por municipio
+- Numero de habitantes
+- Etc.
+
+[Prediccion_de_elecciones](https://github.com/Dexne/Data_Science/tree/main/prediccion_zapopan).
+
+
