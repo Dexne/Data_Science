@@ -75,6 +75,11 @@ Después de varios procesos logramos extraer dos archivos .csv bastante descente
 
 [clean_titanic_train.csv](https://github.com/Dexne/Data_Science/blob/main/titanic_problem/workspaces/machine-learning-content/assets/clean_titanic_train.csv)
 
+Aquí una pequeña representación de la neurona logistica usada:
+
+![Neurona logistica](https://github.com/Dexne/Data_Science/blob/main/titanic_problem/resultados/Neurona_Logistica.png)
+
+
 ## Conclusión
 
 **Relación entre características y supervivencia:** Se evidencia una fuerte relación entre ciertas características (como sexo, clase socioeconómica y acompañantes) y las posibilidades de supervivencia de los pasajeros. Por ejemplo, las mujeres y los pasajeros de primera clase tenían mayores probabilidades de sobrevivir, mientras que los hombres y aquellos en tercera clase tenían tasas de supervivencia más bajas.
