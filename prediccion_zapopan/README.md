@@ -1,6 +1,6 @@
 # Predicción elecciones presidenciales
 
-### BY: Dexne
+### By: Dexne
 
 
 El data science juega un papel fundamental en el análisis de elecciones presidenciales al permitir el procesamiento y la interpretación de grandes conjuntos de datos para identificar patrones, tendencias y factores predictivos.
@@ -21,7 +21,7 @@ Por parte de los demás contendientes podemos apreciar como en los años 2013 lo
 
 El años 2016 fue un año clave y el descisivo, si suponemos que los años de cambio de presidente concuerdan con lo del mundo real, el partido NARANJA fue el ganador por casí más de 60 mil votos superando a los partidos ROJO y AZUL, esto graciasa a la fuerza y popularidad que iba creciendo desde los años 2010-2013.
 
-![Partidos]()
+![Partidos](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Partidos.png)
 
 Con ayuda del siguiente mapa de calor podemos darnos una idea de si existen o no existen relaciones entre las variables de los colores.
 
@@ -31,11 +31,11 @@ Por el otro lado, si nos vamos a la parte inferior izquierda y la superior derec
 
 Por lo demás, podemos decir que son datos independientes entre si y no existe una relación tan fuerte, esto no quiere decir que sean datos inservibles, pero para este analisis se dejarán un poco de lado.
 
-![heatmap]()
+![heatmap](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Headmap_partidos.png)
 
 Para corroborar aún más lo antes dicho podemos apoyarnos del gráfico siguiente, con el cual podemos apreciar de una forma más visual el número de los votos de todos los partidos en comparación entre ellos mismos. Recordando un poco a lo que vimos en los gráficos primeros pudimios observar como el partido NARANJA fue el que más votos obtuvo y por mucho, esto mismo podemos apreciarlo en este histograma.
 
-![Histograma_diario]()
+![Histograma_diario](https://github.com/Dexne/Data_Science/blob/main/prediccion_zapopan/assets/Histograma_diario.png)
 
 # Partido AZUL
 
